@@ -1,0 +1,56 @@
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+#*.off
+*.old
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+
+# idea
+.idea
+*.iml
+
+# building
+target
+build
+null
+tmp*
+temp*
+dist
+test-output
+*.jar
+
+# switch to regexp syntax.
+#  syntax: regexp
+#  ^\.pc/
+
+.cache-main
+.cache-tests
+*.mdb
+spark-warehouse
+
+# maven release plugin artifacts
+*.releaseBackup
+release.properties
+
+#Linux
+.directory
+
+# AKKA Persistence
+*.mdb
+
+# Logs
+*.log
+*.logs
+hs_err_pid*
+
+# MacOS
+.DS_Store
